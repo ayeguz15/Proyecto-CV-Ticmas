@@ -1,0 +1,385 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECCION HEADER */
+.header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./imagenes/fondo1.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 30px;
+}
+.header .contenido-seccion{
+    text-align: center;
+}
+.header .contenido-seccion header{
+    padding: 30px;
+}
+
+/* menu lateral */
+.header .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #058589;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.header .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.header .contenido-seccion header .foto{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: relative;
+    overflow: hidden;
+    left: 43%;
+    margin-top: 50px;  
+}
+
+.header .contenido-seccion header .foto img{
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+
+
+.header .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: #058589;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.header .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.header .contenido-seccion .hero{
+    padding-bottom: 10px;
+}
+.header .contenido-seccion .hero h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.header .contenido-seccion .hero h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.header .contenido-seccion .hero .redes{
+    margin: 80px 0px;
+}
+.header .contenido-seccion .hero .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #058589;
+    border: 1px solid #058589;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.header .contenido-seccion .hero .redes a:hover{
+    color: #fff;
+    background-color: #058589;
+    box-shadow: 0 0 20px #fff;
+}
+
+/* estilos generales */
+.titulo-seccion{
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+}
+/* seccion Sobre Mi */
+.about-me{
+    padding: 30px;
+    text-align: center;
+}
+
+.about-me h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.about-me h2{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #058589;
+}
+.about-me h3{
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #058589;
+}
+
+.about-me p{
+    margin-bottom: 50px;
+
+}
+
+.about-me .info .icons{
+    margin: 50px 50px;
+
+}
+
+.about-me .info .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.about-me .info .icons a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #058589;
+    border: 2px solid #058589;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.about-me .info .fila .icons a:hover{
+    color: #fff;
+    background-color: #058589;
+    box-shadow: 0 0 20px #fff;
+}
+/* SECCION FORMACION Y EXPERIENCIA*/
+
+.form-y-exp {
+    padding: 30px;
+    text-align: justify;
+    background-color: antiquewhite;
+}
+.form-y-exp h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-y-exp .titulo table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.form-y-exp .titulo h2{
+    border: 3px solid #058589;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color:#058589;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-y-exp .titulo table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+
+.form-y-exp .titulo table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-y-exp .titulo table h4{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.form-y-exp .titulo table p{
+    font-size: 14px;
+    text-align: initial;
+}
+
+.form-y-exp .titulo table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+
+/*SECCION PROYECTOS REALIZADOS*/
+
+.projects{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./imagenes/fondo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+    padding: 30px;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.projects h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+
+.projects-list h2,p{
+    text-align: center;
+    color: #000;
+}
+
+.project-detail a{
+    margin-left: 90px;
+}
+
+.project-detail{
+    background-color: #fff;
+    position: relative;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.project-detail img{
+    width:100%
+}
+
+/*SECCION CONTACTO*/
+
+.contact{
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+
+.contact h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+    color: #058589;
+    margin-bottom: 30px;
+}
+
+.contact form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.contact form input,textarea{
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem 0;
+}
+
+.contact form button{
+    width: 90%;
+    margin: 0.5rem 0;
+    padding: 0.5em 1em;
+    border: none;
+    background: #058589 ;
+    cursor:pointer;
+}
+/*SECCION FOOTER*/
+
+.footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #058589;
+}
+
+.footer .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.footer .fila .icons a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #058589;
+    border: 2px solid #058589;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.footer .fila .icons a:hover{
+    color: #fff;
+    background-color: #058589;
+    box-shadow: 0 0 20px #fff;
+}
+
+.footer h3{
+    margin-top: 50px;
+}
+
+#trucazo{
+    opacity:0;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width:800px){
+    .about-me .info .fila{
+        flex-direction: column;
+    }
+    .about-me .info .icons {
+        margin: 0px;
+    }
+    .header .contenido-seccion header .foto{     
+        left: 30%;
+    }
+
+    .footer .fila{
+        flex-direction: column;
+    }
+}
