@@ -60,7 +60,6 @@ html{
     height: 150px;
 }
 
-
 .header .contenido-seccion header .nav-bar{
     position: fixed;
     background-color: #058589;
@@ -69,28 +68,36 @@ html{
     height: 50px;
     border-radius: 50%;
     line-height: 50px;
+    border: 1px solid #fff;
     cursor: pointer;
     transition: .3s;
+    z-index: 1;
 }
+
 .header .contenido-seccion header .nav-bar:hover{
     box-shadow: 0 0 35px #fff;
 }
+
 .header .contenido-seccion .hero{
     padding-bottom: 10px;
 }
+
 .header .contenido-seccion .hero h1{
     font-size: 3rem;
     letter-spacing: 5px;
 }
+
 .header .contenido-seccion .hero h2{
     font-weight: normal;
     font-size: 20px;
     margin-top: -10px;
     letter-spacing: 2px;
 }
+
 .header .contenido-seccion .hero .redes{
     margin: 80px 0px;
 }
+
 .header .contenido-seccion .hero .redes a{
     display: inline-block;
     text-decoration: none;
@@ -104,6 +111,7 @@ html{
     margin: 0 5px;
     transition: .3s;
 }
+
 .header .contenido-seccion .hero .redes a:hover{
     color: #fff;
     background-color: #058589;
